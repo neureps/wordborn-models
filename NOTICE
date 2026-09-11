@@ -1,0 +1,11 @@
+Wordborn models
+
+This repository redistributes a modified version of Gemma 4 E2B-it by Google DeepMind,
+licensed under the Apache License, Version 2.0.
+Base model: https://huggingface.co/google/gemma-4-E2B-it
+(revision 3e22461f65e89153144f8adb70e3b8c2cc9845a7)
+License: https://ai.google.dev/gemma/docs/gemma_4_license
+
+Modifications by Neureps Inc. (2026): Korean/English vocabulary pruning, removal of
+vision and audio components, GGUF conversion, and importance-matrix quantization.
+No additional training was performed.
